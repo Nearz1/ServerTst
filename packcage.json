@@ -1,14 +1,12 @@
 {
-    "name": "tiktok-friends-proxy",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "cors": "^2.8.5",
-      "node-fetch": "^2.6.1"
-    }
+  "name": "tiktok-friends-status-api",
+  "version": "1.0.0",
+  "description": "Servidor simples para proxy de requisição TikTok",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
-  
+}
